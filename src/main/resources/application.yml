@@ -1,0 +1,8 @@
+spring:
+  freemarker:
+    #defini diretorio de onde serão carregadas as templates
+    template-loader-path: classpath:/templates
+    suffix: ftl
+teams:
+  #endereço do webhook da ms teams, deve ser gerado dentro da propria aplicação do teams
+  webhook: https://devplay124.webhook.office.com/webhookb2/b3ade15c-c468-4c60-8bd4-97c8a8e90cbe@c87b1e4b-7e9f-4024-86b2-542380510434/IncomingWebhook/a5cf2cabc89a46be9032305d5dfa75ce/8e78502d-d225-437d-adaa-63172ca9ff2f
